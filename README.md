@@ -50,4 +50,9 @@ PUT : api/projects/id
 ### Delete a project
 Delete : api/projects/id
 
+### Assign task to project
+api/projects/projectid/task
+Send taskId in body
 
+### Sort projects
+/sort?type=
