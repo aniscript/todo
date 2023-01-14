@@ -1,6 +1,6 @@
-import { createError } from "../error.js";
+import { createError } from "../utils/error.js";
 import { ObjectId } from "mongodb";
-import BaseRepo from "../baseRepo.js";
+import BaseRepo from "../utils/baseRepo.js";
 
 // Add Project
 export const addProject = async (req, res, next) => {
