@@ -6,7 +6,10 @@ This project is an exercise task which includes creating a todo list, using Node
 
 In the project directory, you can run:
 
-### `npm run migrate`
+### `yarn`
+To install the dependencies
+
+### `yarn migrate`
 
 This command is required to initialize the database and create the collections
 
